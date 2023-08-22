@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.API\\wwwroot\\images\\23aba733-acf9-4618-b42f-adedadded7b9.png",
+      "PackagePath": "staticwebassets\\images\\23aba733-acf9-4618-b42f-adedadded7b9.png"
+    },
+    {
+      "Id": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.API\\wwwroot\\images\\39197e62-caa9-4d17-83ce-0f135eacb768.png",
+      "PackagePath": "staticwebassets\\images\\39197e62-caa9-4d17-83ce-0f135eacb768.png"
+    },
+    {
+      "Id": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.API\\wwwroot\\images\\6e2fd90d-6e90-4380-92f5-7a597bde6fc3.png",
+      "PackagePath": "staticwebassets\\images\\6e2fd90d-6e90-4380-92f5-7a597bde6fc3.png"
+    },
+    {
+      "Id": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.API\\wwwroot\\images\\6ecb528f-b2dd-4ad0-b34d-9f937a62adf1.png",
+      "PackagePath": "staticwebassets\\images\\6ecb528f-b2dd-4ad0-b34d-9f937a62adf1.png"
+    },
+    {
+      "Id": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.API\\wwwroot\\images\\723dd1a0-00ca-4af9-8c8c-496c6b1ef7dd.png",
+      "PackagePath": "staticwebassets\\images\\723dd1a0-00ca-4af9-8c8c-496c6b1ef7dd.png"
+    },
+    {
+      "Id": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.API\\wwwroot\\images\\b559cc68-93c9-424b-a6e3-7087dbe92a94.png",
+      "PackagePath": "staticwebassets\\images\\b559cc68-93c9-424b-a6e3-7087dbe92a94.png"
+    },
+    {
+      "Id": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.API\\wwwroot\\images\\c9d3fe99-6d13-4048-bd4c-b85133b547f7.png",
+      "PackagePath": "staticwebassets\\images\\c9d3fe99-6d13-4048-bd4c-b85133b547f7.png"
+    },
+    {
+      "Id": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.API\\wwwroot\\images\\db337893-8b0c-4dd3-858c-39f6f6f09c6f.png",
+      "PackagePath": "staticwebassets\\images\\db337893-8b0c-4dd3-858c-39f6f6f09c6f.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ASP_Projekat.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ASP_Projekat.API.props",
+      "PackagePath": "build\\ASP_Projekat.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ASP_Projekat.API.props",
+      "PackagePath": "buildMultiTargeting\\ASP_Projekat.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ASP_Projekat.API.props",
+      "PackagePath": "buildTransitive\\ASP_Projekat.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

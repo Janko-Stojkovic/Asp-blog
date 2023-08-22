@@ -1,0 +1,288 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Implementation\\ASP_Projekat.Implementation.csproj": {}
+  },
+  "projects": {
+    "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Application\\ASP_Projekat.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Application\\ASP_Projekat.Application.csproj",
+        "projectName": "ASP_Projekat.Application",
+        "projectPath": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Application\\ASP_Projekat.Application.csproj",
+        "packagesPath": "C:\\Users\\janko\\.nuget\\packages\\",
+        "outputPath": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\janko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Domain\\ASP_Projekat.Domain.csproj": {
+                "projectPath": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Domain\\ASP_Projekat.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.DataAccess\\ASP_Projekat.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.DataAccess\\ASP_Projekat.DataAccess.csproj",
+        "projectName": "ASP_Projekat.DataAccess",
+        "projectPath": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.DataAccess\\ASP_Projekat.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\janko\\.nuget\\packages\\",
+        "outputPath": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\janko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Domain\\ASP_Projekat.Domain.csproj": {
+                "projectPath": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Domain\\ASP_Projekat.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Domain\\ASP_Projekat.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Domain\\ASP_Projekat.Domain.csproj",
+        "projectName": "ASP_Projekat.Domain",
+        "projectPath": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Domain\\ASP_Projekat.Domain.csproj",
+        "packagesPath": "C:\\Users\\janko\\.nuget\\packages\\",
+        "outputPath": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\janko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Implementation\\ASP_Projekat.Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Implementation\\ASP_Projekat.Implementation.csproj",
+        "projectName": "ASP_Projekat.Implementation",
+        "projectPath": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Implementation\\ASP_Projekat.Implementation.csproj",
+        "packagesPath": "C:\\Users\\janko\\.nuget\\packages\\",
+        "outputPath": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\janko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Application\\ASP_Projekat.Application.csproj": {
+                "projectPath": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Application\\ASP_Projekat.Application.csproj"
+              },
+              "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.DataAccess\\ASP_Projekat.DataAccess.csproj": {
+                "projectPath": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.DataAccess\\ASP_Projekat.DataAccess.csproj"
+              },
+              "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Domain\\ASP_Projekat.Domain.csproj": {
+                "projectPath": "C:\\faks\\ASP\\ASP_Projekat\\ASP_Projekat_Janko\\ASP_Projekat\\ASP_Projekat.Domain\\ASP_Projekat.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

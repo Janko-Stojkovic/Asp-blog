@@ -1,0 +1,17 @@
+C:\faks\ASP\ASP_Projekat\ASP_Projekat_Janko\ASP_Projekat\ASP_Projekat.DataAccess\bin\Debug\net6.0\ASP_Projekat.DataAccess.deps.json
+C:\faks\ASP\ASP_Projekat\ASP_Projekat_Janko\ASP_Projekat\ASP_Projekat.DataAccess\bin\Debug\net6.0\ASP_Projekat.DataAccess.runtimeconfig.json
+C:\faks\ASP\ASP_Projekat\ASP_Projekat_Janko\ASP_Projekat\ASP_Projekat.DataAccess\bin\Debug\net6.0\ASP_Projekat.DataAccess.dll
+C:\faks\ASP\ASP_Projekat\ASP_Projekat_Janko\ASP_Projekat\ASP_Projekat.DataAccess\bin\Debug\net6.0\ASP_Projekat.DataAccess.pdb
+C:\faks\ASP\ASP_Projekat\ASP_Projekat_Janko\ASP_Projekat\ASP_Projekat.DataAccess\bin\Debug\net6.0\ASP_Projekat.Domain.dll
+C:\faks\ASP\ASP_Projekat\ASP_Projekat_Janko\ASP_Projekat\ASP_Projekat.DataAccess\bin\Debug\net6.0\ASP_Projekat.Domain.pdb
+C:\faks\ASP\ASP_Projekat\ASP_Projekat_Janko\ASP_Projekat\ASP_Projekat.DataAccess\obj\Debug\net6.0\ASP_Projekat.DataAccess.csproj.AssemblyReference.cache
+C:\faks\ASP\ASP_Projekat\ASP_Projekat_Janko\ASP_Projekat\ASP_Projekat.DataAccess\obj\Debug\net6.0\ASP_Projekat.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\faks\ASP\ASP_Projekat\ASP_Projekat_Janko\ASP_Projekat\ASP_Projekat.DataAccess\obj\Debug\net6.0\ASP_Projekat.DataAccess.AssemblyInfoInputs.cache
+C:\faks\ASP\ASP_Projekat\ASP_Projekat_Janko\ASP_Projekat\ASP_Projekat.DataAccess\obj\Debug\net6.0\ASP_Projekat.DataAccess.AssemblyInfo.cs
+C:\faks\ASP\ASP_Projekat\ASP_Projekat_Janko\ASP_Projekat\ASP_Projekat.DataAccess\obj\Debug\net6.0\ASP_Projekat.DataAccess.csproj.CoreCompileInputs.cache
+C:\faks\ASP\ASP_Projekat\ASP_Projekat_Janko\ASP_Projekat\ASP_Projekat.DataAccess\obj\Debug\net6.0\ASP_Projekat.DataAccess.csproj.CopyComplete
+C:\faks\ASP\ASP_Projekat\ASP_Projekat_Janko\ASP_Projekat\ASP_Projekat.DataAccess\obj\Debug\net6.0\ASP_Projekat.DataAccess.dll
+C:\faks\ASP\ASP_Projekat\ASP_Projekat_Janko\ASP_Projekat\ASP_Projekat.DataAccess\obj\Debug\net6.0\refint\ASP_Projekat.DataAccess.dll
+C:\faks\ASP\ASP_Projekat\ASP_Projekat_Janko\ASP_Projekat\ASP_Projekat.DataAccess\obj\Debug\net6.0\ASP_Projekat.DataAccess.pdb
+C:\faks\ASP\ASP_Projekat\ASP_Projekat_Janko\ASP_Projekat\ASP_Projekat.DataAccess\obj\Debug\net6.0\ASP_Projekat.DataAccess.genruntimeconfig.cache
+C:\faks\ASP\ASP_Projekat\ASP_Projekat_Janko\ASP_Projekat\ASP_Projekat.DataAccess\obj\Debug\net6.0\ref\ASP_Projekat.DataAccess.dll

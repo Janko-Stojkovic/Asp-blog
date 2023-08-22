@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ASP_Projekat.API</name>
+    </assembly>
+    <members>
+        <member name="M:ASP_Projekat.API.Controllers.BlogController.Get(ASP_Projekat.Application.UseCases.DTO.Searches.SearchBlog,ASP_Projekat.Application.UseCases.Queries.Blog.ISearchBlogsQuery)">
+             <summary>
+             Select All Blogs Or Search It With Keyword
+             </summary>
+            <response code="500">Internal server error</response>
+            <response code="404">Not found</response>
+        </member>
+        <member name="M:ASP_Projekat.API.Controllers.BlogController.Get(System.Int32,ASP_Projekat.Application.UseCases.Queries.Blog.IGetBlogQuery)">
+             <summary>
+             Search Blog With Specific ID
+             </summary>
+            <response code="500">Internal server error</response>
+            <response code="404">Not found</response>
+        </member>
+        <member name="M:ASP_Projekat.API.Controllers.BlogController.Post(ASP_Projekat.Application.UseCases.DTO.CreateBlogDTO,ASP_Projekat.Application.UseCases.Commands.Blog.ICreateBlogCommand)">
+             <summary>
+             Create New Blog
+             </summary>
+            <response code="201">Succesfully added</response>
+            <response code="500">Internal server error</response>
+            <response code="409">Conflict</response>
+            <response code="422">Validation error</response>
+        </member>
+        <member name="M:ASP_Projekat.API.Controllers.BlogController.Put(System.Int32,ASP_Projekat.Application.UseCases.DTO.UpdateBlogDTO,ASP_Projekat.Application.UseCases.Commands.Blog.IUpdateBlogCommand)">
+             <summary>
+             Update Blog With Specific ID
+             </summary>
+            <response code="204">No Content</response>
+            <response code="500">Internal server error</response>
+            <response code="409">Conflict</response>
+            <response code="422">Validation error</response>
+        </member>
+        <member name="M:ASP_Projekat.API.Controllers.BlogController.Delete(System.Int32,ASP_Projekat.Application.UseCases.Commands.Blog.IDeleteBlogCommand)">
+             <summary>
+             Delete Requested Blog
+             </summary>
+            <response code="204">No Content</response>
+            <response code="500">Internal server error</response>
+            <response code="409">Conflict</response>
+            <response code="422">Validation error</response>
+        </member>
+        <member name="M:ASP_Projekat.API.Controllers.ReactionController.Get">
+            <summary>
+            Search For All Reactions
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ASP_Projekat.API.Controllers.ReactionController.Get(System.Int32,ASP_Projekat.Application.UseCases.Queries.Reaction.IGetReactionQuery)">
+            <summary>
+             Search For Reaction With Provided ID
+             </summary>
+        </member>
+        <member name="M:ASP_Projekat.API.Controllers.ReactionController.Post(ASP_Projekat.Application.UseCases.DTO.CreateReactionDTO,ASP_Projekat.Application.UseCases.Commands.Reaction.ICreateReactionCommand)">
+            <summary>
+            Adding New Reaction
+            </summary>
+            <param name="dto"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASP_Projekat.API.Controllers.ReactionController.Delete(System.Int32,ASP_Projekat.Application.UseCases.Commands.Reaction.IDeleteReactionCommand)">
+            <summary>
+            Deleting Reaction
+            </summary>
+            <param name="id"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASP_Projekat.API.Controllers.RoleController.Get">
+            <summary>
+            Get All Roles
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ASP_Projekat.API.Controllers.RoleController.Get(System.Int32,ASP_Projekat.Application.UseCases.Queries.Role.IGetRoleQuery)">
+            <summary>
+            Get Role With Provided ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASP_Projekat.API.Controllers.RoleController.Post(ASP_Projekat.Application.UseCases.DTO.CreateRoleDTO,ASP_Projekat.Application.UseCases.Commands.Role.ICreateRoleCommand)">
+            <summary>
+            Add New Role
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:ASP_Projekat.API.Controllers.RoleController.Delete(System.Int32,ASP_Projekat.Application.UseCases.Commands.Role.IDeleteRoleCommand)">
+            <summary>
+            Delete Role
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:ASP_Projekat.API.Controllers.UserController.Get(ASP_Projekat.Application.UseCases.DTO.Searches.SearchUser,ASP_Projekat.Application.UseCases.Queries.User.ISearchUsersQuery)">
+             <summary>
+             Search User With Keyword
+             </summary>
+             <param name="dto"></param>
+             <param name="query"></param>
+             <returns></returns>
+            <response code="500">Internal server error</response>
+            <response code="404">Not found</response>
+            <response code="201">Ok</response>
+        </member>
+        <member name="M:ASP_Projekat.API.Controllers.UserController.Get(System.Int32,ASP_Projekat.Application.UseCases.Queries.User.IGetUserQuery)">
+             <summary>
+             Search User With ID
+             </summary>
+             <param name="id"></param>
+             <param name="query"></param>
+             <returns></returns>
+            <response code="500">Internal server error</response>
+            <response code="404">Not found</response>
+            <response code="201">Ok</response>
+        </member>
+        <member name="M:ASP_Projekat.API.Controllers.UserController.Post(ASP_Projekat.Application.UseCases.DTO.CreateUserDTO,ASP_Projekat.Application.UseCases.Commands.User.ICreateUserCommand)">
+             <summary>
+             Registration of new user
+             </summary>
+             <param name="dto"></param>
+             <returns></returns>
+             <remarks>
+             Sample request:
+            
+                 POST /api/users
+                 {
+                    "email": "string",
+                     "password": "string",
+                     "name": "string",
+                     "surname": "string",
+                     "userName": "string",
+                     "imageId": 0
+                 }
+            
+             </remarks>
+            <response code="201">Succesfully added</response>
+            <response code="500">Internal server error</response>
+            <response code="409">Conflict</response>
+            <response code="422">Validation error</response>
+        </member>
+        <member name="M:ASP_Projekat.API.Controllers.UserController.Put(System.Int32,ASP_Projekat.Application.UseCases.DTO.UpdateUserDTO,ASP_Projekat.Application.UseCases.Commands.User.IUpdateUserCommand)">
+             <summary>
+             Update User
+             </summary>
+            <response code="204">Succesfully updated</response>
+            <response code="500">Internal server error</response>
+            <response code="409">Conflict</response>
+            <response code="422">Validation error</response>
+        </member>
+        <member name="M:ASP_Projekat.API.Controllers.UserController.Delete(System.Int32,ASP_Projekat.Application.UseCases.Commands.User.IDeleteUserCommand)">
+             <summary>
+             Delete User
+             </summary>
+            <response code="204">Succesfully deleted</response>
+            <response code="500">Internal server error</response>
+            <response code="404">Not Found</response>
+            <response code="401">Not Authorized</response>
+            <response code="422">Validation error</response>
+             <param name="id"></param>
+        </member>
+    </members>
+</doc>
